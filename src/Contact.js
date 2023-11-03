@@ -83,7 +83,7 @@ const Contact = () => {
 
   return (
     <Box sx={styles.pageContainer}>
-      <Typography variant="h4" sx={styles.pageTitle}>
+      <Typography fontWeight="bold" marginTop="10px" variant="h4" align="center" sx={{ mb: 4 }} >
         Contact Us
       </Typography>
       {!isSubmitted ? (

@@ -26,7 +26,7 @@ const Home = () => {
 
   return (
     <Box>
-      <Typography variant="h4" align="center" sx={{ mb: 4 }}>
+      <Typography fontWeight="bold" marginTop="29px" variant="h4" align="center" sx={{ mb: 4 }}>
         Staff List
       </Typography>
       <Box
